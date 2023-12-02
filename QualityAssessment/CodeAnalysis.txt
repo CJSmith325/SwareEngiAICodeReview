@@ -1,0 +1,46 @@
+class CodeAnalysis {
+    private:
+    string languageType;
+    string errorFoundString;
+    int errorLineNumber;
+    int errorsFound;
+    string fileName;
+    int startLine;
+    int endLine;
+    string languageTokens;
+    public:
+    string errorList;
+    
+    void GetLanguage() {
+        
+    }
+    
+    void SetLanguage(string language) {
+        
+    }
+    
+    void ReadFile(fileName, startLine, endLine) {
+        
+    }
+    
+    void GetErrorLineNumber() {
+        
+    }
+    
+    void DetectStructure(string languageType) {
+        
+    }
+    
+    void FindSyntaxErrors(string languageTokens) {
+        
+    }
+    
+    void FindDataStructErrors(string languageTokens, string limits) {
+        
+    }
+    
+    void MakeErrorList(string errorFoundString, int errorLineNumber) {
+        
+    }
+    
+};
